@@ -20,7 +20,7 @@ Izmantotās Python bibliotēkas:
 Programmatūras lietošanas metodes:
 
     Lai izmantotu programmatūru, izpildiet šādas darbības:
-        Palaidiet skriptu.
+        Palaidiet skriptu (cenas.py).
         Pēc pieprasījuma ievadiet vajadzīgā vienuma nosaukumu.
         Novērojiet, kā skripts iegūst eBay meklēšanas rezultātus, aprēķina vidējās cenas un filtrē izlecošās vērtības.
         Rezultāti, ieskaitot pašreizējo datumu un vidējo cenu, tiek ierakstīti Excel failā ar nosaukumu price.xlsx.
