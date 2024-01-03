@@ -1,26 +1,26 @@
-Project Description:
+Projekta apraksts:
 
-    This repository houses a Python script designed to perform a detailed analysis of eBay search results for a specified item. By leveraging the power of Selenium for web scraping, the script extracts median prices, applies statistical methods to identify outliers, and records the results in an Excel file. This project serves as a practical example of web scraping techniques applied to e-commerce data.
+      Šajā repozitorijā ir Python skripts, kas izstrādāts, lai veiktu detalizētu eBay meklēšanas rezultātu analīzi attiecībā uz noteiktu preci. Izmantojot Selenium tīmekļa skrāpēšanas iespējas, skripts iegūst vidējās cenas, piemēro statistiskās metodes, lai identificētu izlecošās vērtības, un pieraksta rezultātus Excel failā. Šis projekts kalpo kā praktisks piemērs tīmekļa skrāpēšanas paņēmienu piemērošanai e-komercijas datiem.
 
-Python Libraries Used:
+Izmantotās Python bibliotēkas:
 
-    The project relies on the following Python libraries:
-        Selenium: Used for web scraping and browser automation.
-        NumPy: Utilized for numerical operations and percentile calculations.
-        openpyxl: Employed for handling Excel files and storing analysis results.
-        datetime: Used for obtaining the current date.
-        time: Included for introducing delays in the script execution.
-    Reasons for Usage:
-        Selenium provides a powerful tool for automating web interactions, making it suitable for web scraping tasks.
-        NumPy simplifies statistical calculations, crucial for identifying and handling outliers.
-        openpyxl facilitates easy manipulation of Excel files, enabling data storage and analysis.
-        datetime is used to timestamp each data entry with the current date, providing a record of when the analysis was performed.
-        time is employed to introduce a delay after submitting the search query to eBay, ensuring that the search results have loaded before attempting to scrape them.
+    Projekts balstās uz šādām Python bibliotēkām:
+        Selenium: Izmanto tīmekļa skrāpēšanai un pārlūkprogrammas automatizācijai.
+        NumPy: Izmanto skaitliskajām operācijām un procentiļu aprēķiniem.
+        openpyxl: izmanto Excel failu apstrādei un analīzes rezultātu glabāšanai.
+        datetime: Izmanto pašreizējā datuma iegūšanai.
+        time: Izmanto, lai skripta izpildē ieviestu aizkavēšanos.
+    Lietošanas iemesli:
+        Selenium ir jaudīgs rīks tīmekļa mijiedarbības automatizēšanai, tāpēc tas ir piemērots tīmekļa skrāpēšanas uzdevumiem.
+        NumPy vienkāršo statistiskos aprēķinus, kas ir ļoti svarīgi, lai identificētu un apstrādātu izlecošās vērtības.
+        openpyxl atvieglo darbības ar Excel failiem, ļaujot uzglabāt un analizēt datus.
+        datetime tiek izmantots, lai katram datu ierakstam atzīmētu pašreizējo datumu, tādējādi nodrošinot ierakstu par to, kad analīze tika veikta.
+        time tiek izmantots, lai pēc meklēšanas vaicājuma iesniegšanas eBay ieviestu kavēšanos, nodrošinot, ka meklēšanas rezultāti ir ielādēti, pirms tos mēģina nolasīt.
 
-Methods of Using the Software:
+Programmatūras lietošanas metodes:
 
-    To use the software, follow these steps:
-        Run the script.
-        Input the desired item name when prompted.
-        Observe the script fetching eBay search results, calculating median prices, and filtering outliers.
-        The results, including the current date and average price, are recorded in an Excel file named price.xlsx.
+    Lai izmantotu programmatūru, izpildiet šādas darbības:
+        Palaidiet skriptu.
+        Pēc pieprasījuma ievadiet vajadzīgā vienuma nosaukumu.
+        Novērojiet, kā skripts iegūst eBay meklēšanas rezultātus, aprēķina vidējās cenas un filtrē izlecošās vērtības.
+        Rezultāti, ieskaitot pašreizējo datumu un vidējo cenu, tiek ierakstīti Excel failā ar nosaukumu price.xlsx.
